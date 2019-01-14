@@ -1,6 +1,6 @@
 require_relative '../lib/06_pig_latin'
 
-describe "#translate" do
+describe "translate" do
 
   it "translates a word beginning with a vowel" do
     s = translate("apple")
